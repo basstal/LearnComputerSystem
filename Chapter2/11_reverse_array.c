@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
-将数组前后两部分的元素互换位置
-*/
+ * 将数组前后两部分的元素互换位置
+ */
 
 void inplace_swap(int *x, int *y)
 {

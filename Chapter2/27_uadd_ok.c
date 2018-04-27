@@ -2,8 +2,8 @@
 #include <limits.h>
 
 /**
-测试无符号数相加是否溢出
-*/
+ * 测试无符号数相加是否溢出
+ */
 
 int uadd_ok(unsigned x, unsigned y)
 {

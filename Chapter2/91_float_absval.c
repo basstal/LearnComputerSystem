@@ -2,8 +2,8 @@
 #include <limits.h>
 #include <math.h>
 /**
-对于浮点数f，函数计算|f|。如果f是NaN，直接返回f
-*/
+ * 对于浮点数f，函数计算|f|。如果f是NaN，直接返回f
+ */
 typedef unsigned float_bits;
 
 

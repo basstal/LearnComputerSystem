@@ -1,7 +1,10 @@
 #include <stdio.h>
+#include <limits.h>
+
 /**
-srl用算术右移完成逻辑右移，sra用逻辑右移完成算术右移
-*/
+ * srl用算术右移完成逻辑右移，sra用逻辑右移完成算术右移
+ */
+
 int sra(int x,int k){
     int xsrl = (unsigned) x >> k;
     //...
@@ -13,13 +16,34 @@ int sra(int x,int k){
 
 unsigned srl(unsigned x, int k){
     unsigned xsra = (int)x >> k;
-    unsigned mask = (1 << (8*sizeof(int) -k)) -1;
+    int w = sizeof(int) << 3;
+    unsigned mask = (unsigned)-1;
+    k == 0 || (mask >>= k);
     return xsra & mask;
 }
 
 int main(){
-    printf("%x\n",sra(0x12345678,8));
-    printf("%x\n",sra(0x82345678,8));
-    printf("%x\n",srl(0x12345678,8));
-    printf("%x\n",srl(0x82345678,8));
+    int w = sizeof(int) << 3;
+    for (int n = INT_MIN; n < INT_MAX; ++n)
+    {
+        for (int i = 0; i < w; ++i)
+        {
+            if (srl(n, i) != (unsigned)n >> i)
+            {
+                printf("test failed! x, i : %08x, %d\n ", n, i);
+                printf("%08x \n", srl(n, i));
+                printf("%08x \n", (unsigned)n >> i);
+
+            }
+        }
+    }
+
+    // for (int n = INT_MIN; n < INT_MAX; ++n)
+    // {
+    //     for (int i = 0; i < w; ++i)
+    //     {
+    //         if (sra(n, i) != n >> i)
+    //             printf("test failed! x, i : %08x, %d\n ", n, i);
+    //     }
+    // }
 }

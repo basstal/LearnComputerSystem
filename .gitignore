@@ -1,5 +1,6 @@
 #IOS
 .DS_Store
+errorOut
 
 # Prerequisites
 *.d

@@ -3,8 +3,8 @@
 #include <string.h>
 
 /**
-对show_bytes的测试，显示c字符串型
-*/
+ * 对show_bytes的测试，显示c字符串型
+ */
 
 void test(){
     const char *s = "abcdef";

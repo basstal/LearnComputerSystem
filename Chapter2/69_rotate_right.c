@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
-对数的位表示做右旋转，将低位旋转到高位上来
-*/
+ * 对数的位表示做右旋转，将低位旋转到高位上来
+ */
 unsigned rotate_right(unsigned x, int n){
     int mask = (1 << n) - 1;
     // printf("%x\n",mask);

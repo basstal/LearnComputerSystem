@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
-用正确的舍入方式计算x除以2的k次幂
-*/
+ * 用正确的舍入方式计算x除以2的k次幂
+ */
 
 int divide_power2(int x, int k){
     int fix = 0;

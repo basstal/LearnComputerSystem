@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
-产生如下位模式：a.1(w-n)0(n)   b.0(w-n-m)1(n)0(m)
-*/
+ * 产生如下位模式：a.1(w-n)0(n)   b.0(w-n-m)1(n)0(m)
+ */
 
 
 int bits1(int n){

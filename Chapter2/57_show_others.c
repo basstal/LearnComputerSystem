@@ -2,8 +2,9 @@
 #include "show_bytes.h"
 
 /**
-调用show_bytes显示其他类型的字节值
-*/
+ * 调用show_bytes显示其他类型的字节值
+ */
+
 void test_show_bytes(int val)
 {
     int ival = val;

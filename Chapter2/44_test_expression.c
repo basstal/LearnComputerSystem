@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
-一些表达式的测试
-*/
+ * 一些表达式的测试
+ */
 
 void test_expression(int x, int y)
 {

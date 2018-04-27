@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <limits.h>
 /**
-对于整数参数x，计算5*x/8
-*/
+ * 对于整数参数x，计算5*x/8
+ */
 
 int mul5div8(int x){
     int bias = 1 << 3 - 1;

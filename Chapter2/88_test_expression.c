@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <limits.h>
 /**
-一些表达式测试
-*/
+ * 一些表达式测试
+ */
 int main(){
 
     int x = INT_MAX;

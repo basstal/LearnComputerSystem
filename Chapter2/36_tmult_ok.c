@@ -2,8 +2,8 @@
 #include "show_bytes.h"
 
 /**
-测试乘法是否溢出，两种方法
-*/
+ * 测试乘法是否溢出，两种方法
+ */
 
 int tmult_ok(int x, int y)
 {

@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
-测试有符号数相加是否溢出
-*/
+ * 测试有符号数相加是否溢出
+ */
 
 int tadd_ok(int x, int y)
 {

@@ -1,7 +1,7 @@
 #include <limits.h>
 /**
-如果计算x-y导致溢出，则返回1
-*/
+ * 如果计算x-y导致溢出，则返回1
+ */
 int tadd_ok(int x, int y)
 {
     if(x > 0 && y > 0 && x+y <0)
