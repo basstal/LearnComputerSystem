@@ -1,8 +1,10 @@
 #include <stdio.h>
+
 /**
 一些表达式的测试
 */
-int test_expression(int x, int y)
+
+void test_expression(int x, int y)
 {
     // printf("%d\n",(x * x ) >= 0);     
     // printf("%d\n", x < 0 || -x >= 0); 
@@ -21,5 +23,4 @@ int main()
     test_expression(0x80000000,0);
     unsigned long long i = 0x01000000;
     printf("%lf", (double)1/i);
-    
 }

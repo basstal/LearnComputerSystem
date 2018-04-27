@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include "show_bytes.h"
+
 /**
 测试乘法是否溢出，两种方法
 */
+
 int tmult_ok(int x, int y)
 {
     long long val = (long long)x * y;

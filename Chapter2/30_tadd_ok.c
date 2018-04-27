@@ -1,8 +1,9 @@
 #include <stdio.h>
+
 /**
 测试有符号数相加是否溢出
-
 */
+
 int tadd_ok(int x, int y)
 {
     if(x > 0 && y > 0 && x+y <0)

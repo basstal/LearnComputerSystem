@@ -1,13 +1,16 @@
 #include <stdio.h>
+
 /**
 将数组前后两部分的元素互换位置
 */
+
 void inplace_swap(int *x, int *y)
 {
     *x = *x ^ *y;
     *y = *x ^ *y;
     *x = *x ^ *y;
 }
+
 void reverse_array(int a[], int cnt)
 {
     int first,last;
@@ -22,6 +25,7 @@ void print_arr(int a[],int cnt)
         printf("%d",a[i]);
     printf("\n");
 }
+
 int main()
 {
     int arr1[4] = {1,2,3,4};

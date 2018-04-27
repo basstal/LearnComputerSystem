@@ -1,9 +1,11 @@
 
 #include <stdio.h>
 #include "show_bytes.h"
+
 /**
 按字节显示一个地址start内包含的值，以及其后len个字节的值
 */
+
 void show_bytes(byte_pointer start, int len)
 {
     int i;
@@ -35,12 +37,9 @@ void show_long(long l){
     show_bytes((byte_pointer)&l,sizeof(long));
 }
 
-
 void show_double(double d){
     show_bytes((byte_pointer)&d,sizeof(double));
 }
-
-
 
 // void test_shift()
 // {

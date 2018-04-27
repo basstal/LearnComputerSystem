@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include "show_bytes.h"
+
 /**
 对show_bytes的测试，显示int型
 */
+
 void test()
 {
     int val = 0x87654321;
