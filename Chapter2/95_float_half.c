@@ -2,11 +2,12 @@
 #include <math.h>
 #include <limits.h>
 #include "show_bytes.h"
+
 /**
  * 对于浮点数f，函数计算0.5*f。如果f是NaN，直接返回f
  */
-typedef unsigned float_bits;
 
+typedef unsigned float_bits;
 
 float_bits float_half(float_bits f){
     unsigned sign = f >> 31;

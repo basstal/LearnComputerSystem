@@ -4,6 +4,7 @@
 /**
  * 将整数val复制到缓冲区buf中，但是只有当缓冲区中有足够可用（maxbytes）的空间时，才执行复制
  */
+
 void copy_int(int val, void * buf, int maxbytes){
     int sz = sizeof(val);
     if(maxbytes - sz >= 0)

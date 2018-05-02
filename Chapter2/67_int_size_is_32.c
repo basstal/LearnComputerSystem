@@ -3,6 +3,7 @@
 /**
  * 当在一个int是32位的机器上运行时，程序产生1，而其他情况产生0
  */
+
 int int_size_is_32(){
     int set_msb = 1 << 31;
     int beyond_msb = (long long)1 << 32;
