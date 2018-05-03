@@ -1,7 +1,9 @@
 #IOS
 .DS_Store
 error
-asm
+
+#Assembly Language
+*.s
 
 # Prerequisites
 *.d
