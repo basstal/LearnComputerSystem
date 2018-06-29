@@ -80,6 +80,13 @@
 
 4. gcc默认使用**小型代码模型**，该模型假设可执行目标文件中的代码和数据的总体大小小于2GB。
 
+5. 重定位PC相对引用地址计算方式：
+    - refaddr = ADDR(s) + r.offset
+    - *refptr = (unsigned) (ADDR(r.symbol) + r.addend - refaddr)
+
+6. 重定位绝对引用地址计算方式：
+    - *refptr = (unsigned) (ADDR(r.symbol) + r.addend)
+
 ## 可执行目标文件 ##
 
 1. 典型ELF可执行目标文件：
@@ -127,3 +134,7 @@
 1. 三种方式：编译时打桩，链接时打桩，运行时打桩。
 
 ## 处理目标文件的工具 ##
+
+## 家庭作业未完成 ##
+
+- 13
