@@ -106,3 +106,9 @@
     - 如果handler是SIG_IGN，忽略类型为signum的信号。
     - 如果handler是SIG_DFL，那么类型为signum的信号恢复为默认行为。
     - 否则handler就是用户定义的函数的地址，这个函数被称为信号处理程序，只要进程接收到一个类型为signum的信号，就会调用这个程序。通过把处理程序的地址传递到signal函数从而改变默认行为，这叫做设置信号处理程序。调用信号处理程序被称为捕获信号。执行信号处理程序被称为处理信号。
+
+6. sigprocmask函数改变当前阻塞的信号集合，具体行为依赖于how值：
+    - SIG_BLOCK，把set中的信号添加到blocked中。
+    - SIG_UNBLOCK，从blocked中删除set中的信号。
+    - SIG_SETMASK，block=set。
+    如果oldset非空，那么blocked位向量之前的值保存在oldset中。
