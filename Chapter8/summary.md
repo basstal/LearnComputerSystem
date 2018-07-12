@@ -112,3 +112,23 @@
     - SIG_UNBLOCK，从blocked中删除set中的信号。
     - SIG_SETMASK，block=set。
     如果oldset非空，那么blocked位向量之前的值保存在oldset中。
+
+7. 使用下述函数对set信号集合进行操作：sigemptyset初始化set为空的集合。sigfillset函数把每个信号都添加到set中。sigaddset函数把signum添加到set，sigdelset从set中删除signum，如果signum是set的成员，那么sigismember返回1，否则返回0。
+
+8. 编写信号处理程序的原则：
+    - 处理程序要尽可能的简单。
+    - 在处理程序中只调用异步信号安全的函数。
+    - 保存和恢复errno，在进入处理程序时把errno保存在一个局部变量中，在处理程序返回前恢复它。
+    - 阻塞所有信号，保护对共享全局数据结构的访问。
+    - 用valatile声明全局变量。
+    - 用sig_atomic_t声明标志。sig_atomic_t提供一种整型数据类型，对它的读和写保证会是原子的。
+
+9. 未处理的信号是不排队的，如果存在一个未处理的信号就表明至少有一个信号到达了。因此，不可以用信号来对其他进程中发生的事件计数。
+
+## 非本地跳转 ##
+
+1. 非本地跳转，将控制直接从一个函数转移到另一个当前正在执行的函数，而不需要经过正常的调用-返回序列。非本地跳转是通过setjmp和longjmp函数来提供的。
+
+2. sigsetjmp和siglongjmp函数是setjmp和longjmp的可以被信号处理程序使用的版本。
+
+## 操作进程的工具 ##
