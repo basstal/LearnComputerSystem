@@ -1,6 +1,6 @@
 # ComputerSystems #
 
-Computer System: A Programmer's Perspective 3rd Edition, My practice.
+Computer System: A Programmer's Perspective 3rd Edition
 
 深入理解计算机系统（第三版）
 
