@@ -1,4 +1,4 @@
-# E68_setVal #
+# E68_set_val #
 
 A.  
 
