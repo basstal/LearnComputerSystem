@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <limits.h>
 #include <math.h>
-#include "show_bytes.h"
+#include ".\Resources\show_bytes.h"
 
 /**
  * 对于浮点数f，这个函数计算2.0 * f。如果f是NaN，你的函数应该简单的返回f。

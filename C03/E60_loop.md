@@ -12,3 +12,5 @@ C.  mask != 0
 D.  mask <<= n
 
 E.  result |= mask & x
+
+[loop.c](./Resources/loop.c)
