@@ -1,7 +1,10 @@
+# E60_loop #
 
-A.  x -> %rdi</br>
-    n -> %esi</br>
-    result -> %rax</br>
+A.  
+
+    x -> %rdi
+    n -> %esi
+    result -> %rax
     mask -> %rdx
 
 B.  result -> 0</br>
