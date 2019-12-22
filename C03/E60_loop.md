@@ -1,5 +1,7 @@
 # E60_loop #
 
+[loop.c](./Resources/loop.c)
+
 A.  
 
     x -> %rdi
@@ -7,13 +9,19 @@ A.
     result -> %rax
     mask -> %rdx
 
-B.  result -> 0</br>
+B.  
+
+    result -> 0
     mask -> 1
 
-C.  mask != 0
+C.  
 
-D.  mask <<= n
+    mask != 0
 
-E.  result |= mask & x
+D.  
 
-[loop.c](./Resources/loop.c)
+    mask <<= n
+
+E.  
+
+    result |= mask & x

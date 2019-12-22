@@ -1,3 +1,5 @@
+# E66_sum_col #
+
 NR 3 * n
 
 NC 4 * n + 1

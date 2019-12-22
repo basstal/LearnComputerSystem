@@ -1,3 +1,9 @@
-A. $x_r + L(i\cdot{S}\cdot{T} + j\cdot{T} + k)$
+# E64_store_ele #
 
-B. R = 7, S = 5, T = 13
+A.
+
+$x_r + L(i\cdot{S}\cdot{T} + j\cdot{T} + k)$
+
+B.
+
+    R = 7, S = 5, T = 13
