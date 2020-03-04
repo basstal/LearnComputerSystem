@@ -17,3 +17,13 @@ Computer System: A Programmer's Perspective 3rd Edition
 ## 进度 ##
 
 11/12
+
+## Content Construct ##
+
+- Exercise: E?(number)-fileName
+- Summary: Summary.md
+- Solution: Solution.md
+- Exernal Resource
+- Resource
+- Chapter: C?-title
+- Addition: A?
