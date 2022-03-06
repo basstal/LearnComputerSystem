@@ -1,29 +1,33 @@
-# ComputerSystems #
+- [LearnComputerSystems](#learncomputersystems)
+  - [Contents](#contents)
+    - [Summary](#summary)
+  - [Notes](#notes)
+  - [Progress](#progress)
 
-Computer System: A Programmer's Perspective 3rd Edition
+# LearnComputerSystems
 
-深入理解计算机系统（第三版）
+This repository contains exercise and summary on reading Computer System: A Programmer's Perspective(3rd Edition).
 
-个人练习题记录。
+## Contents
 
-内容不保证正确性，欢迎指教。
+### Summary
 
-## Tips ##
+- [Chapter2 Representing and Manipulating Information](./C02_RepresentingAndManipulatingInformation/Summary.md)
+- [Chapter3 Machine-Level Representation of Programs](./C03_MachineLevelRepresentationOfPrograms/Summary.md)
+- [Chapter4 Processor Architecture]
+- [Chapter5 Optimizing Program Performance](./C05_OptimizingProgramPerformance/Summary.md)
+- [Chapter6 The Memory Hierarchy](./C06_TheMemoryHierarchy/Summary.md)
+- [Chapter7 Linking](./C07_Linking/Summary.md)
+- [Chapter8 Exceptional Control Flow](./C08_ExceptionalControlFlow/Summary.md)
+- [Chapter9 Virtual Memory](./C09_VirtualMemory/Summary.md)
+- [Chapter10 System-Level I/O](./C10_SystemLevelIO/Summary.md)
+- [Chapter11 Network Programming](./C11_NetworkProgramming/Summary.md)
+- [Chapter12 Concurrent Programming]
 
-每章内部都有一个Summary.md总结这个章节的知识点
+## Notes
 
-其中公式使用[katex](https://khan.github.io/KaTeX/)显示，可使用VSCode等其他工具查看。
+- use [katex](https://khan.github.io/KaTeX/) write mathematics representations.
 
-## 进度 ##
+## Progress
 
-11/12
-
-## Content Construct ##
-
-- Exercise: E?(number)-fileName
-- Summary: Summary.md
-- Solution: Solution.md
-- Exernal Resource
-- Resource
-- Chapter: C?-title
-- Addition: A?
+11/12 chapter
