@@ -1,16 +1,16 @@
 - [LearnComputerSystems](#learncomputersystems)
   - [Contents](#contents)
-    - [Summary](#summary)
+  - [Summary](#summary)
   - [Notes](#notes)
   - [Progress](#progress)
 
 # LearnComputerSystems
 
-This repository contains exercise and summary on reading Computer System: A Programmer's Perspective(3rd Edition).
+This repository contains exercises and a summary of reading Computer System: A Programmer's Perspective(3rd Edition).
 
 ## Contents
 
-### Summary
+## Summary
 
 - [Chapter2 Representing and Manipulating Information](./C02_RepresentingAndManipulatingInformation/Summary.md)
 - [Chapter3 Machine-Level Representation of Programs](./C03_MachineLevelRepresentationOfPrograms/Summary.md)
@@ -26,7 +26,7 @@ This repository contains exercise and summary on reading Computer System: A Prog
 
 ## Notes
 
-- use [katex](https://khan.github.io/KaTeX/) write mathematics representations.
+- writing mathematics representations with [katex](https://khan.github.io/KaTeX/).
 
 ## Progress
 
